@@ -1,0 +1,8 @@
+CREATE TABLE `etec`.`usuario` (`id` INT NOT NULL AUTO_INCREMENT , `nome` VARCHAR(70) NULL , `email` VARCHAR(70) NOT NULL , `senha` VARCHAR(70) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+INSERT INTO `usuario` (`id`, `nome`, `email`, `senha`) VALUES (NULL, 'aluno', 'aluno@etec.br', '1234567');
+
+INSERT INTO `usuario` (`id`, `nome`, `email`, `senha`) VALUES (NULL, 'professor', 'professor@etec.br', '123456');
+
+ALTER TABLE `usuario` ADD UNIQUE(`email`);
+

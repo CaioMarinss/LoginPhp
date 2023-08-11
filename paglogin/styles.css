@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: #420039;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    color: #E07BE0;
+    padding: 15px;
+    border: 10px #000000;    
+    background-color: #932F6D;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.enviar{
+    border-radius: 5em;
+    background-color: #F6F2FF;
+    color: #1aff00;
+}
+.bemvindo{
+    flex-direction: column;
+}
